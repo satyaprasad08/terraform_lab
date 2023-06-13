@@ -11,7 +11,6 @@ terraform {
     container_name       = "tfstate"
     key                  = "satyaprasad08tf.tfstate"
   }
-  required_version = "1.4.0"
 }
 
 provider "azurerm" {
